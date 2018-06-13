@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.MainActivity">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:layout_alignParentBottom="true"
+    android:layout_height="wrap_content">
+    <Button
+        android:id="@+id/main_userinfo"
+        android:layout_width="wrap_content"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:text="用户信息"
+        android:textSize="16sp"/>
+    <Button
+        android:id="@+id/main_makeorder"
+        android:layout_width="wrap_content"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:text="用户下单"
+        android:textSize="16sp"/>
+    <Button
+        android:id="@+id/click_query"
+        android:layout_width="wrap_content"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:text="订单查询"
+        android:textSize="16sp"/>
+</LinearLayout>
+
+    <TextView
+        android:id="@+id/result_TV"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Hello World!"
+        android:textSize="16sp"/>
+</RelativeLayout>
